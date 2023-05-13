@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
 from fastapi import FastAPI
 import pandas as pd 
 
